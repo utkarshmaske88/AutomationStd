@@ -1,18 +1,21 @@
-Mon Oct 23 17:45:37 2023
+Fri Oct 27 12:12:56 2023
 COPYRIGHT (C) B&R Industrial Automation GmbH
 
-Mon Oct 23 17:45:37 2023
+Fri Oct 27 12:12:56 2023
 No ARsim registration found!
 
-Mon Oct 23 17:45:37 2023
-InstanceName: 0000041e1d9a0a02
+Fri Oct 27 12:12:56 2023
+InstanceName: 00000184643ad747
 
-Mon Oct 23 17:45:37 2023
+Fri Oct 27 12:12:56 2023
 WorkingDirectory: C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Temp\Simulation\Config1\X20CP0484\
 
-Mon Oct 23 17:45:37 2023
+Fri Oct 27 12:12:56 2023
 COMMAND_COLDSTART
 
-Mon Oct 23 17:45:39 2023
+Fri Oct 27 12:12:59 2023
 Version: G4.93
+
+Fri Oct 27 14:36:02 2023
+COMMAND_TERMINATE
 

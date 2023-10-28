@@ -19,6 +19,7 @@ PROGRAM _INIT
 	iMo_TimerSmall.PT	:=T#10s;
 	// Cancel Time
 	iVa_Cancel.PT		:=T#1s;
+	iVa_Cancel.Q;
 END_PROGRAM
 
 
