@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="Dispene_Content" height="600" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Paper" id="PaperSvg" top="152" left="65" width="717" height="446" zIndex="0" maxZoomLevel="0" minZoomLevel="0" svgContent="Media/SVG5.svg" svgFilePath="Media/SVG5.svg" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="Change" top="549" left="454" width="172" zIndex="1" value="Collect Change" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="Refund" top="534" left="621" width="159" height="60" zIndex="2" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unitAlign="right" cornerRadius="5px" backColor="rgba(157, 178, 191, 1)" textColor="rgba(255, 255, 255, 1)" textAlign="center" unitFontSize="25px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="Display" top="542" left="57" width="400" height="43" zIndex="5" value="Dispensing The Drink" borderWidth="0px" cornerRadius="5px" backColor="rgba(255, 255, 255, 0)" borderStyle="solid" textColor="rgba(192, 192, 192, 1)" textAlign="center" fontName="Arial Unicode" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.Image" id="DisImage" top="290" left="424" width="40" height="40" zIndex="4" image="Media/ARROW.gif" visible="false" />
+    <Widget xsi:type="widgets.brease.ProgressBar" id="ProgressBar1" top="544" left="67" height="43" zIndex="3" maxValue="0" minValue="1000" showLabel="false" value="1000" barColor="rgba(39, 55, 77, 1)" borderStyle="none" />
+  </Widgets>
+</Content>

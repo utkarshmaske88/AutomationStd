@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="HeaderCoffee" height="170" width="1275" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Image" id="Logo" top="18" left="0" width="176" height="131" zIndex="0" image="Media/Logo.png" />
+    <Widget xsi:type="widgets.brease.Label" id="Header" top="39" left="434" width="398" height="89" zIndex="1" text="Coffee Machine" borderWidth="2px" cornerRadius="10px" backColor="rgba(255, 255, 255, 0)" borderStyle="solid" textColor="rgba(221, 230, 237, 1)" fontName="Arial Unicode" fontSize="50px" bold="true" />
+    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="Cancel" top="53" left="1069" width="163" height="62" zIndex="2" image="Media/cancel.png" imageAlign="right" text="CANCEL" imageHeight="40" borderWidth="4px" cornerRadius="5px" backColor="rgba(255, 255, 255, 0)" borderColor="rgba(255, 0, 0, 1)" textColor="rgba(0, 0, 0, 1)" fontSize="20px" fontName="Arial Unicode" bold="true" />
+    <Widget xsi:type="widgets.brease.Button" id="Data" top="55" left="878" width="153" height="63" zIndex="3" image="Media/data2.png" text="Insights" imageHeight="50" cornerRadius="100px" backColor="rgba(255, 255, 255, 1)" borderColor="rgba(0, 0, 0, 1)" fontSize="20px" fontName="Arial Unicode" bold="false" />
+  </Widgets>
+</Content>

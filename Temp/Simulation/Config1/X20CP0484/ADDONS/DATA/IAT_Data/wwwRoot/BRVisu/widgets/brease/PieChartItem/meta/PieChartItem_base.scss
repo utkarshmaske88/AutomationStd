@@ -1,0 +1,9 @@
+@import "mixins.scss";
+@mixin widgets_brease_PieChartItem_base {
+	path {
+		fill: #FF8800;
+	}
+	opacity: 1;
+
+}
+

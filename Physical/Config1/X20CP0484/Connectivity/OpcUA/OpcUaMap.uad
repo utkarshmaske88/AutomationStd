@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<OpcUaSource FileVersion="9" ArVersion="G4.93">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <Task Name="Program">
+        <Variable Name="COFFEESTEP" />
+        <Variable Name="iMi_Cancel" />
+        <Variable Name="iMi_COFFEE" />
+        <Variable Name="iMi_CoinFive" />
+        <Variable Name="iMi_CoinOne" />
+        <Variable Name="iMi_CoinTen" />
+        <Variable Name="iMi_CoinTwo" />
+        <Variable Name="iMi_COLDCOFFEE" />
+        <Variable Name="iMi_COLDDRINK" />
+        <Variable Name="iMi_DisTimeSet" />
+        <Variable Name="iMi_GoIntoCount" />
+        <Variable Name="iMi_TEA" />
+        <Variable Name="iMo_Bar" />
+        <Variable Name="iMo_BarMax" />
+        <Variable Name="iMo_ChangeMoney" />
+        <Variable Name="iMo_COFFEEPRICE" />
+        <Variable Name="iMo_COLDCOFFEEPRICE" />
+        <Variable Name="iMo_COLDDRINKPRICE" />
+        <Variable Name="iMo_Display" />
+        <Variable Name="iMo_FIVE" />
+        <Variable Name="iMo_GenDrink" />
+        <Variable Name="iMo_GenPrice" />
+        <Variable Name="iMo_InsertCoin" />
+        <Variable Name="iMo_ONE" />
+        <Variable Name="iMo_PieCC" />
+        <Variable Name="iMo_PieCD" />
+        <Variable Name="iMo_PieCoffee" />
+        <Variable Name="iMo_PieTea" />
+        <Variable Name="iMo_TEAPRICE" />
+        <Variable Name="iMo_TEN" />
+        <Variable Name="iMo_TimerSmall" RecursiveEnable="2" />
+        <Variable Name="iMo_TotalInsertMoney" />
+        <Variable Name="iMo_TotalMoney" />
+        <Variable Name="iMo_TWO" />
+        <Variable Name="iVa_Cancel" RecursiveEnable="2" />
+        <Variable Name="iVa_DisAnime" />
+        <Variable Name="iVa_DispenseDrink" />
+        <Variable Name="iVa_DisTimeSet" RecursiveEnable="2" />
+        <Variable Name="iVa_GoIntoIdle" />
+        <Variable Name="iVa_ONESEC" />
+        <Variable Name="iVa_Svg" />
+        <Variable Name="iVa_TimerFull" RecursiveEnable="2" />
+        <Variable Name="iVl_ChangeFlag" />
+        <Variable Name="iVl_Flag" />
+        <Variable Name="iVl_THIRTY" />
+        <Variable Name="iVl_THIRTYTIMER" />
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

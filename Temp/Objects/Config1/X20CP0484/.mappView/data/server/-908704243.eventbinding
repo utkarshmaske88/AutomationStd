@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="HeaderCoffee">
+    <EventBinding id="HeaderCoffee.Cancel.Click">
+      <Source type="widgets.brease.MomentaryPushButton.Event" event="Click" refId="HeaderCoffee_Cancel" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::Program:iMi_Cancel">
+            <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Visualization>
+    <EventBinding id="EventBinding_10">
+      <Source type="opcUa.Event" refId="::Program:iMo_GenDrink" event="ValueChanged" />
+      <EventHandler condition="newValue=''">
+        <Action>
+          <Target type="clientSystem.Action">
+            <Method type="clientSystem.Action.LoadContentInArea"><Parameter name="contentId" xsi:type="ANY_STRING" value="MainContent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="pageId" xsi:type="ANY_STRING" value="CoffeeMainPage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="areaId" xsi:type="ANY_STRING" value="HeroContent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding id="EventBinding_11">
+      <Source type="opcUa.Event" refId="::Program:iVa_Cancel.Q" event="ValueChanged" />
+      <EventHandler condition="newValue=TRUE">
+        <Action>
+          <Target type="clientSystem.Action">
+            <Method type="clientSystem.Action.LoadContentInArea"><Parameter name="contentId" xsi:type="ANY_STRING" value="MainContent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="pageId" xsi:type="ANY_STRING" value="CoffeeMainPage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="areaId" xsi:type="ANY_STRING" value="HeroContent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Visualization>
+  <Content id="HeaderCoffee">
+    <EventBinding id="EventBinding_12">
+      <Source type="opcUa.Event" refId="::Program:iMo_GenPrice" event="ValueChanged" />
+      <EventHandler condition="newValue=0">
+        <Action>
+          <Target type="clientSystem.Action">
+            <Method type="clientSystem.Action.LoadContentInArea"><Parameter name="contentId" xsi:type="ANY_STRING" value="MainContent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="pageId" xsi:type="ANY_STRING" value="CoffeeMainPage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="areaId" xsi:type="ANY_STRING" value="HeroContent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue&lt;&gt;0">
+        <Action>
+          <Target type="widgets.brease.MomentaryPushButton.Action" refId="HeaderCoffee_Cancel">
+            <Method type="widgets.brease.MomentaryPushButton.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=0">
+        <Action>
+          <Target type="widgets.brease.MomentaryPushButton.Action" refId="HeaderCoffee_Cancel">
+            <Method type="widgets.brease.MomentaryPushButton.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="HeaderCoffee">
+    <EventBinding id="HeaderCoffee.Data.Click">
+      <Source type="widgets.brease.Button.Event" event="Click" refId="HeaderCoffee_Data" />
+      <EventHandler>
+        <Action>
+          <Target type="clientSystem.Action">
+            <Method type="clientSystem.Action.LoadContentInArea"><Parameter name="contentId" xsi:type="ANY_STRING" value="LoggedIn" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="pageId" xsi:type="ANY_STRING" value="CoffeeMainPage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="areaId" xsi:type="ANY_STRING" value="HeroContent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+</EventBindingDefinition>

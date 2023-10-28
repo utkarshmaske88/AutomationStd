@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+  
+
+
+<Content id="MainContent"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_GenDrink" attribute="value" />
+<Target xsi:type="brease" refId="MainContent_GenDrink" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="MainContent"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_GenPrice" attribute="node" />
+<Target xsi:type="brease" refId="MainContent_GenPrice" attribute="node" />
+</Binding></Content>
+
+
+
+<Content id="MainContent"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iVa_TimerFull.IN" attribute="value" />
+<Target xsi:type="brease" refId="MainContent_InsertMoney" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="MainContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:iVa_TimerFull.IN" attribute="value" />
+<Target xsi:type="brease" refId="MainContent_GenDrink" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="MainContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:iVa_TimerFull.IN" attribute="value" />
+<Target xsi:type="brease" refId="MainContent_GenPrice" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="MainContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:iVa_TimerFull.IN" attribute="value" />
+<Target xsi:type="brease" refId="MainContent_GenDrinkLabel1" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="MainContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:iVa_TimerFull.IN" attribute="value" />
+<Target xsi:type="brease" refId="MainContent_GenDrinkLabel" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="MainContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:iVl_ChangeFlag" attribute="value" />
+<Target xsi:type="brease" refId="MainContent_Refund" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="MainContent"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:iVl_ChangeFlag" attribute="value" />
+<Target xsi:type="brease" refId="MainContent_Change" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="MainContent"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_ChangeMoney" attribute="node" />
+<Target xsi:type="brease" refId="MainContent_Refund" attribute="node" />
+</Binding></Content>
+
+
+
+
+</BindingDefinition>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+  
+<Content id="InsertMoney_Content"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_GenPrice" attribute="node" />
+<Target xsi:type="brease" refId="InsertMoney_Content_GenPrice" attribute="node" />
+</Binding></Content>
+
+
+
+<Content id="InsertMoney_Content"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_TotalMoney" attribute="node" />
+<Target xsi:type="brease" refId="InsertMoney_Content_NumericOutput3" attribute="node" />
+</Binding></Content>
+
+
+
+		<Content id="InsertMoney_Content"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_InsertCoin" attribute="node" />
+<Target xsi:type="brease" refId="InsertMoney_Content_NumericOutput4" attribute="node" />
+</Binding></Content>
+
+
+
+
+</BindingDefinition>

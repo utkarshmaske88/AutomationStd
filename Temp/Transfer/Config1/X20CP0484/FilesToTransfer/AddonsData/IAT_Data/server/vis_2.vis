@@ -1,0 +1,43 @@
+
+<vdef:Visualization id="vis_2" autoUpdate="true" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
+  <StartPage pageRefId="CoffeeMainPage" />
+  <Pages>
+    <Page refId="CoffeeMainPage" />
+  </Pages>
+  <Navigations />
+  <BindingsSets>
+    <BindingsSet refId="963969934" />
+    <BindingsSet refId="-414971065" />
+    <BindingsSet refId="-2090368736" />
+    <BindingsSet refId="1203985005" />
+    <BindingsSet refId="1678008375" />
+  </BindingsSets>
+  <EventBindingsSets>
+    <EventBindingsSet refId="2142257548" />
+    <EventBindingsSet refId="-1015293609" />
+    <EventBindingsSet refId="-908704243" />
+    <EventBindingsSet refId="142526551" />
+  </EventBindingsSets>
+  <Dialogs />
+  <Contents>
+    <Content refId="MainContent" />
+    <Content refId="InsertMoney_Content" />
+    <Content refId="Dispene_Content" />
+    <Content refId="HeaderCoffee" />
+    <Content refId="LoggedIn" />
+  </Contents>
+  <SnippetsSets />
+  <VariablesSets />
+  <ExpressionsSets />
+  <Configurations>
+    <Configuration key="activityCount" value="false" />
+    <Gestures>
+      <!--<SystemGesture1 touchPoints="2" />
+		  <SystemGesture2 touchPoints="2" />
+		  <SystemGesture3 touchPoints="2" />-->
+    </Gestures>
+    <VirtualKeyboards>
+      <!--<InputProcessing onKeyDown="true" />-->
+    </VirtualKeyboards>
+  </Configurations>
+</vdef:Visualization>

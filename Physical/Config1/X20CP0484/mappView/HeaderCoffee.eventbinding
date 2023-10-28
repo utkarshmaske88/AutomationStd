@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="HeaderCoffee_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="HeaderCoffee.Cancel.Click">
+      <Source xsi:type="widgets.brease.MomentaryPushButton.Event" contentRefId="HeaderCoffee" widgetRefId="Cancel" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::Program:iMi_Cancel">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_10">
+      <Source xsi:type="opcUa.Event" refId="::Program:iMo_GenDrink" event="ValueChanged" />
+      <EventHandler condition="newValue=''">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="MainContent" pageId="CoffeeMainPage" areaId="HeroContent" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_11">
+      <Source xsi:type="opcUa.Event" refId="::Program:iVa_Cancel.Q" event="ValueChanged" />
+      <EventHandler condition="newValue=TRUE">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="MainContent" pageId="CoffeeMainPage" areaId="HeroContent" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_12">
+      <Source xsi:type="opcUa.Event" refId="::Program:iMo_GenPrice" event="ValueChanged" />
+      <EventHandler condition="newValue=0">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="MainContent" pageId="CoffeeMainPage" areaId="HeroContent" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue&lt;&gt;0">
+        <Action>
+          <Target xsi:type="widgets.brease.MomentaryPushButton.Action" contentRefId="HeaderCoffee" widgetRefId="Cancel">
+            <Method xsi:type="widgets.brease.MomentaryPushButton.Action.SetVisible" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=0">
+        <Action>
+          <Target xsi:type="widgets.brease.MomentaryPushButton.Action" contentRefId="HeaderCoffee" widgetRefId="Cancel">
+            <Method xsi:type="widgets.brease.MomentaryPushButton.Action.SetVisible" value="false" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="HeaderCoffee.Data.Click">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="HeaderCoffee" widgetRefId="Data" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="LoggedIn" pageId="CoffeeMainPage" areaId="HeroContent" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

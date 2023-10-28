@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StyleInformation name="widgets.brease.PieChartItem" xmlns="http://www.br-automation.com/iat2014/widgetStyles" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <StyleProperties>
+    <StyleProperty name="height" category="Layout" type="Size" not_styleable="true" hide="true">
+      <StyleElement attribute="@include elemHeight($value)"></StyleElement>
+      <Description>outer height of the widget</Description>
+    </StyleProperty>
+    <StyleProperty name="width" category="Layout" type="Size" not_styleable="true" hide="true">
+      <StyleElement attribute="@include elemWidth($value)"></StyleElement>
+      <Description>outer width of the widget</Description>
+    </StyleProperty>
+    <StyleProperty name="top" type="Integer" not_styleable="true" category="Layout" deprecated="true">
+      <StyleElement attribute="@include elemTop($value)"></StyleElement>
+      <Description>absolute position measured from top boundary of parent container</Description>
+    </StyleProperty>
+    <StyleProperty name="left" type="Integer" not_styleable="true" category="Layout" deprecated="true">
+      <StyleElement attribute="@include elemLeft($value)"></StyleElement>
+      <Description>absolute position measured from left boundary of parent container</Description>
+    </StyleProperty>
+    
+    <StyleProperty name="backColor" category="Appearance" type="Color" default="#FF8800">
+      <StyleElement selector="path" attribute="fill"></StyleElement>
+      <Description>background color of the widget</Description>
+    </StyleProperty>
+    <StyleProperty name="opacity" category="Appearance" type="Opacity" default="1">
+      <StyleElement attribute="opacity"></StyleElement>
+      <Description>opacity of the widget</Description>
+    </StyleProperty>
+
+    <!--To do-->
+
+  </StyleProperties>
+</StyleInformation>
+

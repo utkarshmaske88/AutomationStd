@@ -1,0 +1,141 @@
+@import "mixins.scss";
+#HeaderCoffee_Logo {	@include elemTop(18);
+}
+#HeaderCoffee_Logo {	@include elemLeft(0);
+}
+#HeaderCoffee_Logo {	@include elemAutoWidth(176);
+}
+#HeaderCoffee_Logo {	@include elemAutoHeight(131);
+}
+#HeaderCoffee_Logo {	z-index: 0;
+}
+#HeaderCoffee_Header {	@include elemTop(39);
+}
+#HeaderCoffee_Header {	@include elemLeft(434);
+}
+#HeaderCoffee_Header {	@include elemAutoWidth(398);
+}
+#HeaderCoffee_Header {	@include elemAutoHeight(89);
+}
+#HeaderCoffee_Header {	z-index: 1;
+}
+#HeaderCoffee_Header {	border-width: 2px;
+}
+#HeaderCoffee_Header {	@include border-radius(10px);
+}
+#HeaderCoffee_Header {	background-color: rgba(255, 255, 255, 0);
+}
+#HeaderCoffee_Header {	border-style: solid;
+}
+#HeaderCoffee_Header {	&:before {
+		border-style: solid;
+	}
+}
+#HeaderCoffee_Header {	&:after {
+		border-style: solid;
+	}
+}
+#HeaderCoffee_Header {	& span {
+		color: rgba(221, 230, 237, 1);
+	}
+}
+#HeaderCoffee_Header {	span {
+		font-family: Arial Unicode;
+	}
+}
+#HeaderCoffee_Header {	font-size: 50px;
+}
+#HeaderCoffee_Header {	@include font-weight-bold(true);
+}
+#HeaderCoffee_Cancel {	@include elemTop(53);
+}
+#HeaderCoffee_Cancel {	@include elemLeft(1069);
+}
+#HeaderCoffee_Cancel {	@include elemAutoWidth(163);
+}
+#HeaderCoffee_Cancel {	@include elemAutoHeight(62);
+}
+#HeaderCoffee_Cancel {	z-index: 2;
+}
+#HeaderCoffee_Cancel {	img {
+		@include imageHeight(40);
+	}
+}
+#HeaderCoffee_Cancel {	svg {
+		@include imageHeight(40);
+	}
+}
+#HeaderCoffee_Cancel {	&:not(.active):not(.checked) {
+		border-width: 4px;
+	}
+}
+#HeaderCoffee_Cancel {	&.disabled {
+		border-width: 4px;
+	}
+}
+#HeaderCoffee_Cancel {	@include border-radius(5px);
+}
+#HeaderCoffee_Cancel {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#HeaderCoffee_Cancel {	&:not(.disabled):not(.active):not(.checked) {
+		border-color: rgba(255, 0, 0, 1);
+	}
+}
+#HeaderCoffee_Cancel {	&:not(.disabled):not(.active):not(.checked) span {
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#HeaderCoffee_Cancel {	span {
+		font-size: 20px;
+	}
+}
+#HeaderCoffee_Cancel {	span {
+		font-family: Arial Unicode;
+	}
+}
+#HeaderCoffee_Cancel {	span {
+		@include font-weight-bold(true);
+	}
+}
+#HeaderCoffee_Data {	@include elemTop(55);
+}
+#HeaderCoffee_Data {	@include elemLeft(878);
+}
+#HeaderCoffee_Data {	@include elemAutoWidth(153);
+}
+#HeaderCoffee_Data {	@include elemAutoHeight(63);
+}
+#HeaderCoffee_Data {	z-index: 3;
+}
+#HeaderCoffee_Data {	img {
+		@include imageHeight(50);
+	}
+}
+#HeaderCoffee_Data {	svg {
+		@include imageHeight(50);
+	}
+}
+#HeaderCoffee_Data {	@include border-radius(100px);
+}
+#HeaderCoffee_Data {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 255, 255, 1);
+	}
+}
+#HeaderCoffee_Data {	&:not(.disabled):not(.active):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#HeaderCoffee_Data {	span {
+		font-size: 20px;
+	}
+}
+#HeaderCoffee_Data {	span {
+		font-family: Arial Unicode;
+	}
+}
+#HeaderCoffee_Data {	span {
+		@include font-weight-bold(false);
+	}
+}

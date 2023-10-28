@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="InsertMoney_Content" height="800" width="1280" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.PushButton" id="ONE" top="684" left="156" width="99" height="60" zIndex="0" text="₹1" cornerRadius="5px" backColor="rgba(221, 230, 237, 1)" fontSize="45px" bold="true" />
+    <Widget xsi:type="widgets.brease.PushButton" id="TWO" top="684" left="406" width="99" height="60" zIndex="1" text="₹2" cornerRadius="5px" backColor="rgba(221, 230, 237, 1)" fontSize="45px" bold="true" />
+    <Widget xsi:type="widgets.brease.PushButton" id="FIVE" top="684" left="655" width="99" height="60" zIndex="2" text="₹5" cornerRadius="5px" backColor="rgba(221, 230, 237, 1)" fontSize="45px" bold="true" />
+    <Widget xsi:type="widgets.brease.PushButton" id="TEN" top="684" left="905" width="99" height="60" zIndex="3" text="₹10" cornerRadius="5px" backColor="rgba(221, 230, 237, 1)" fontSize="45px" bold="true" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="GenPrice" top="250" left="1008" width="159" height="60" zIndex="4" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unitAlign="right" cornerRadius="5px" backColor="rgba(157, 178, 191, 1)" textAlign="center" unitFontSize="25px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput6" top="266" left="732" width="252" height="29" zIndex="5" value="Money to be inserted" fontName="Arial Unicode" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput3" top="334" left="1008" width="159" height="60" zIndex="6" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unitAlign="right" cornerRadius="5px" backColor="rgba(157, 178, 191, 1)" textAlign="center" unitFontSize="25px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput7" top="351" left="732" width="252" height="29" zIndex="7" value="Money inserted" fontName="Arial Unicode" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Display" top="589" left="355" width="438" height="52" zIndex="8" text="Please Insert The Money" cornerRadius="5px" backColor="rgba(39, 55, 77, 1)" textColor="rgba(255, 255, 255, 1)" textAlign="center" fontName="Arial Unicode" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput4" top="418" left="1006" width="159" height="60" zIndex="9" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unitAlign="right" cornerRadius="5px" backColor="rgba(157, 178, 191, 1)" textAlign="center" unitFontSize="25px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput8" top="435" left="732" width="252" height="29" zIndex="10" value="Insert Before Timeout &gt;" fontName="Arial Unicode" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="433" left="1106" width="52" zIndex="11" text="Sec" fontSize="18px" bold="true" />
+  </Widgets>
+</Content>

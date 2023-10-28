@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+  
+<Content id="LoggedIn"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_PieCoffee" attribute="value" />
+<Target xsi:type="brease" refId="LoggedIn_PieChartItem2" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LoggedIn"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_PieTea" attribute="value" />
+<Target xsi:type="brease" refId="LoggedIn_PieChartItem1" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LoggedIn"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_PieCD" attribute="node" />
+<Target xsi:type="brease" refId="LoggedIn_PieChartItem4" attribute="node" />
+</Binding></Content>
+
+
+
+<Content id="LoggedIn"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_PieCC" attribute="value" />
+<Target xsi:type="brease" refId="LoggedIn_PieChartItem3" attribute="value" />
+</Binding></Content>
+
+
+
+
+
+<Content id="LoggedIn"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_TotalInsertMoney" attribute="node" />
+<Target xsi:type="brease" refId="LoggedIn_NumericOutput3" attribute="node" />
+</Binding></Content>
+
+
+
+
+</BindingDefinition>

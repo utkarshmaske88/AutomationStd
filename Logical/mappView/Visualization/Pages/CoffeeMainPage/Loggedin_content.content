@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="LoggedIn" height="600" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.PieChart" id="PieChart1" top="317" left="93" width="263" height="263" zIndex="0">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.PieChartItem" id="PieChartItem1" top="82" left="94" zIndex="0" text="PieChartItem1" value="0" backColor="rgba(255, 0, 255, 1)" />
+        <Widget xsi:type="widgets.brease.PieChartItem" id="PieChartItem2" top="93" left="114" zIndex="1" text="PieChartItem2" value="0" backColor="rgba(0, 255, 255, 1)" />
+        <Widget xsi:type="widgets.brease.PieChartItem" id="PieChartItem3" top="112" left="70" zIndex="2" text="PieChartItem3" value="0" />
+        <Widget xsi:type="widgets.brease.PieChartItem" id="PieChartItem4" top="79" left="82" zIndex="3" text="PieChartItem4" value="0" backColor="rgba(0, 255, 0, 1)" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput3" top="206" left="558" width="159" height="60" zIndex="1" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unitAlign="right" cornerRadius="5px" backColor="rgba(157, 178, 191, 1)" textAlign="center" unitFontSize="25px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label" top="223" left="272" width="260" zIndex="2" text="Total Money Inserted Till Now" fontName="Arial Unicode" fontSize="18px" />
+    <Widget xsi:type="widgets.brease.Label" id="Blue" top="395" left="412" width="130" height="39" zIndex="3" text="Tea" borderWidth="2px" cornerRadius="5px" borderStyle="solid" textColor="rgba(0, 255, 255, 1)" fontName="Arial Unicode" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.Label" id="Pink" top="334" left="412" width="130" height="39" zIndex="4" text="Coffee" borderWidth="2px" cornerRadius="5px" borderStyle="solid" textColor="rgba(255, 0, 255, 1)" fontName="Arial Unicode" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.Label" id="Orange" top="456" left="412" width="130" height="39" zIndex="5" text="ColdCoffee" borderWidth="2px" cornerRadius="5px" borderStyle="solid" textColor="rgba(255, 136, 0, 1)" fontName="Arial Unicode" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.Label" id="Green" top="517" left="412" width="130" height="39" zIndex="6" text="ColdDrink" borderWidth="2px" cornerRadius="5px" borderStyle="solid" textColor="rgba(0, 255, 0, 1)" fontName="Arial Unicode" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="282" left="177" width="105" zIndex="7" text="PieChart" fontName="Arial Unicode" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.Button" id="Button1" top="517" left="600" width="130" height="39" zIndex="8" image="Media/home.png" text="Home" imageHeight="30" cornerRadius="5px" borderColor="rgba(0, 0, 0, 1)" fontSize="15px" bold="true" />
+  </Widgets>
+</Content>

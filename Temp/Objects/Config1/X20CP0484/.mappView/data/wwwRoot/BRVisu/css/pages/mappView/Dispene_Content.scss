@@ -1,0 +1,123 @@
+@import "mixins.scss";
+#Dispene_Content_PaperSvg {	@include elemTop(152);
+}
+#Dispene_Content_PaperSvg {	@include elemLeft(65);
+}
+#Dispene_Content_PaperSvg {	@include elemWidth(717);
+}
+#Dispene_Content_PaperSvg {	@include elemHeight(446);
+}
+#Dispene_Content_PaperSvg {	z-index: 0;
+}
+#Dispene_Content_Change {	@include elemAutoHeight(30);
+}
+#Dispene_Content_Change {	@include elemTop(549);
+}
+#Dispene_Content_Change {	@include elemLeft(454);
+}
+#Dispene_Content_Change {	@include elemAutoWidth(172);
+}
+#Dispene_Content_Change {	z-index: 1;
+}
+#Dispene_Content_Change {	font-size: 20px;
+}
+#Dispene_Content_Change {	@include font-weight-bold(true);
+}
+#Dispene_Content_Refund {	@include elemTop(534);
+}
+#Dispene_Content_Refund {	@include elemLeft(621);
+}
+#Dispene_Content_Refund {	@include elemAutoWidth(159);
+}
+#Dispene_Content_Refund {	@include elemAutoHeight(60);
+}
+#Dispene_Content_Refund {	z-index: 2;
+}
+#Dispene_Content_Refund {	@include border-radius(5px);
+}
+#Dispene_Content_Refund {	background-color: rgba(157, 178, 191, 1);
+}
+#Dispene_Content_Refund {	input {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#Dispene_Content_Refund {	span.breaseNumericOutput_unit {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#Dispene_Content_Refund {	input {
+		@include text-alignment(center);
+	}
+}
+#Dispene_Content_Refund {	.breaseNumericOutput_unit {
+		font-size: 25px;
+	}
+}
+#Dispene_Content_Display {	@include elemTop(542);
+}
+#Dispene_Content_Display {	@include elemLeft(57);
+}
+#Dispene_Content_Display {	@include elemAutoWidth(400);
+}
+#Dispene_Content_Display {	@include elemAutoHeight(43);
+}
+#Dispene_Content_Display {	z-index: 5;
+}
+#Dispene_Content_Display {	border-width: 0px;
+}
+#Dispene_Content_Display {	@include border-radius(5px);
+}
+#Dispene_Content_Display {	background-color: rgba(255, 255, 255, 0);
+}
+#Dispene_Content_Display {	border-style: solid;
+}
+#Dispene_Content_Display {	&:before {
+		border-style: solid;
+	}
+}
+#Dispene_Content_Display {	&:after {
+		border-style: solid;
+	}
+}
+#Dispene_Content_Display {	& span {
+		color: rgba(192, 192, 192, 1);
+	}
+}
+#Dispene_Content_Display {	@include text-alignment-all('center');
+}
+#Dispene_Content_Display {	span {
+		font-family: Arial Unicode;
+	}
+}
+#Dispene_Content_Display {	font-size: 20px;
+}
+#Dispene_Content_Display {	@include font-weight-bold(false);
+}
+#Dispene_Content_DisImage {	@include elemTop(290);
+}
+#Dispene_Content_DisImage {	@include elemLeft(424);
+}
+#Dispene_Content_DisImage {	@include elemAutoWidth(40);
+}
+#Dispene_Content_DisImage {	@include elemAutoHeight(40);
+}
+#Dispene_Content_DisImage {	z-index: 4;
+}
+#Dispene_Content_ProgressBar1 {	@include elemWidth(400);
+}
+#Dispene_Content_ProgressBar1 {	@include elemTop(544);
+}
+#Dispene_Content_ProgressBar1 {	@include elemLeft(67);
+}
+#Dispene_Content_ProgressBar1 {	@include elemHeight(43);
+}
+#Dispene_Content_ProgressBar1 {	z-index: 3;
+}
+#Dispene_Content_ProgressBar1 {	.pb-progress {
+		background-color: rgba(39, 55, 77, 1);
+	}
+}
+#Dispene_Content_ProgressBar1 {	.pb-outer-area {
+		border-style: none;
+	}
+}

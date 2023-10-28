@@ -1,0 +1,583 @@
+@import "mixins.scss";
+#MainContent_Coffee {	@include elemTop(189);
+}
+#MainContent_Coffee {	@include elemLeft(225);
+}
+#MainContent_Coffee {	@include elemAutoWidth(217);
+}
+#MainContent_Coffee {	@include elemAutoHeight(211);
+}
+#MainContent_Coffee {	z-index: 0;
+}
+#MainContent_Coffee {	background-color: rgba(157, 178, 191, 1);
+}
+#MainContent_Coffee {	border-style: solid;
+}
+#MainContent_Coffee {	border-width: 0px;
+}
+#MainContent_Coffee {	@include border-radius(10px 10px 0px 0px);
+}
+#MainContent_Tea {	@include elemTop(190);
+}
+#MainContent_Tea {	@include elemLeft(525);
+}
+#MainContent_Tea {	@include elemAutoWidth(218);
+}
+#MainContent_Tea {	@include elemAutoHeight(211);
+}
+#MainContent_Tea {	z-index: 1;
+}
+#MainContent_Tea {	background-color: rgba(157, 178, 191, 1);
+}
+#MainContent_Tea {	border-style: solid;
+}
+#MainContent_Tea {	border-width: 0px;
+}
+#MainContent_Tea {	@include border-radius(10px 10px 0px 0px);
+}
+#MainContent_Colddrink {	@include elemTop(510);
+}
+#MainContent_Colddrink {	@include elemLeft(225);
+}
+#MainContent_Colddrink {	@include elemAutoWidth(218);
+}
+#MainContent_Colddrink {	@include elemAutoHeight(211);
+}
+#MainContent_Colddrink {	z-index: 2;
+}
+#MainContent_Colddrink {	background-color: rgba(157, 178, 191, 1);
+}
+#MainContent_Colddrink {	border-style: solid;
+}
+#MainContent_Colddrink {	border-width: 0px;
+}
+#MainContent_Colddrink {	@include border-radius(10px 10px 0px 0px);
+}
+#MainContent_coldcoffee {	@include elemTop(510);
+}
+#MainContent_coldcoffee {	@include elemLeft(525);
+}
+#MainContent_coldcoffee {	@include elemAutoWidth(218);
+}
+#MainContent_coldcoffee {	@include elemAutoHeight(211);
+}
+#MainContent_coldcoffee {	z-index: 3;
+}
+#MainContent_coldcoffee {	background-color: rgba(157, 178, 191, 1);
+}
+#MainContent_coldcoffee {	border-style: solid;
+}
+#MainContent_coldcoffee {	border-width: 0px;
+}
+#MainContent_coldcoffee {	@include border-radius(10px 10px 0px 0px);
+}
+#MainContent_CoffeeText {	@include elemTop(399);
+}
+#MainContent_CoffeeText {	@include elemLeft(224);
+}
+#MainContent_CoffeeText {	@include elemAutoWidth(219);
+}
+#MainContent_CoffeeText {	@include elemAutoHeight(35);
+}
+#MainContent_CoffeeText {	z-index: 4;
+}
+#MainContent_CoffeeText {	border-width: 1px;
+}
+#MainContent_CoffeeText {	@include border-radius(0px 0px 10px 10px);
+}
+#MainContent_CoffeeText {	border-color: rgba(0, 0, 0, 1);
+}
+#MainContent_CoffeeText {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#MainContent_CoffeeText {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#MainContent_CoffeeText {	border-style: solid;
+}
+#MainContent_CoffeeText {	&:before {
+		border-style: solid;
+	}
+}
+#MainContent_CoffeeText {	&:after {
+		border-style: solid;
+	}
+}
+#MainContent_CoffeeText {	@include text-alignment-all('center');
+}
+#MainContent_CoffeeText {	span {
+		font-family: Arial Unicode;
+	}
+}
+#MainContent_CoffeeText {	font-size: 19px;
+}
+#MainContent_CoffeeText {	@include font-weight-bold(true);
+}
+#MainContent_TeaText {	@include elemTop(400);
+}
+#MainContent_TeaText {	@include elemLeft(524);
+}
+#MainContent_TeaText {	@include elemAutoWidth(220);
+}
+#MainContent_TeaText {	@include elemAutoHeight(34);
+}
+#MainContent_TeaText {	z-index: 5;
+}
+#MainContent_TeaText {	border-width: 1px;
+}
+#MainContent_TeaText {	@include border-radius(0px 0px 10px 10px);
+}
+#MainContent_TeaText {	border-color: rgba(0, 0, 0, 1);
+}
+#MainContent_TeaText {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#MainContent_TeaText {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#MainContent_TeaText {	border-style: inset;
+}
+#MainContent_TeaText {	&:before {
+		border-style: inset;
+	}
+}
+#MainContent_TeaText {	&:after {
+		border-style: inset;
+	}
+}
+#MainContent_TeaText {	@include text-alignment-all('center');
+}
+#MainContent_TeaText {	span {
+		font-family: Arial Unicode;
+	}
+}
+#MainContent_TeaText {	font-size: 19px;
+}
+#MainContent_TeaText {	@include font-weight-bold(true);
+}
+#MainContent_ColdDrinkText {	@include elemTop(721);
+}
+#MainContent_ColdDrinkText {	@include elemLeft(224);
+}
+#MainContent_ColdDrinkText {	@include elemAutoWidth(219);
+}
+#MainContent_ColdDrinkText {	@include elemAutoHeight(35);
+}
+#MainContent_ColdDrinkText {	z-index: 6;
+}
+#MainContent_ColdDrinkText {	border-width: 1px;
+}
+#MainContent_ColdDrinkText {	@include border-radius(0px 0px 10px 10px);
+}
+#MainContent_ColdDrinkText {	border-color: rgba(0, 0, 0, 1);
+}
+#MainContent_ColdDrinkText {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#MainContent_ColdDrinkText {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#MainContent_ColdDrinkText {	border-style: inset;
+}
+#MainContent_ColdDrinkText {	&:before {
+		border-style: inset;
+	}
+}
+#MainContent_ColdDrinkText {	&:after {
+		border-style: inset;
+	}
+}
+#MainContent_ColdDrinkText {	@include text-alignment-all('center');
+}
+#MainContent_ColdDrinkText {	span {
+		font-family: Arial Unicode;
+	}
+}
+#MainContent_ColdDrinkText {	font-size: 19px;
+}
+#MainContent_ColdDrinkText {	@include font-weight-bold(true);
+}
+#MainContent_ColdCoffeeText {	@include elemTop(721);
+}
+#MainContent_ColdCoffeeText {	@include elemLeft(525);
+}
+#MainContent_ColdCoffeeText {	@include elemAutoWidth(219);
+}
+#MainContent_ColdCoffeeText {	@include elemAutoHeight(35);
+}
+#MainContent_ColdCoffeeText {	z-index: 7;
+}
+#MainContent_ColdCoffeeText {	border-width: 1px;
+}
+#MainContent_ColdCoffeeText {	@include border-radius(0px 0px 10px 10px);
+}
+#MainContent_ColdCoffeeText {	border-color: rgba(0, 0, 0, 1);
+}
+#MainContent_ColdCoffeeText {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#MainContent_ColdCoffeeText {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#MainContent_ColdCoffeeText {	border-style: inset;
+}
+#MainContent_ColdCoffeeText {	&:before {
+		border-style: inset;
+	}
+}
+#MainContent_ColdCoffeeText {	&:after {
+		border-style: inset;
+	}
+}
+#MainContent_ColdCoffeeText {	@include text-alignment-all('center');
+}
+#MainContent_ColdCoffeeText {	span {
+		font-family: Arial Unicode;
+	}
+}
+#MainContent_ColdCoffeeText {	font-size: 19px;
+}
+#MainContent_ColdCoffeeText {	@include font-weight-bold(true);
+}
+#MainContent_GenDrink {	@include elemTop(490);
+}
+#MainContent_GenDrink {	@include elemLeft(1024);
+}
+#MainContent_GenDrink {	@include elemAutoWidth(158);
+}
+#MainContent_GenDrink {	@include elemAutoHeight(66);
+}
+#MainContent_GenDrink {	z-index: 8;
+}
+#MainContent_GenDrink {	border-width: 2px;
+}
+#MainContent_GenDrink {	@include border-radius(5px);
+}
+#MainContent_GenDrink {	background-color: rgba(157, 178, 191, 1);
+}
+#MainContent_GenDrink {	border-color: rgba(39, 55, 77, 1);
+}
+#MainContent_GenDrink {	&:before {
+		border-color: rgba(39, 55, 77, 1);
+	}
+}
+#MainContent_GenDrink {	&:after {
+		border-color: rgba(39, 55, 77, 1);
+	}
+}
+#MainContent_GenDrink {	border-style: solid;
+}
+#MainContent_GenDrink {	&:before {
+		border-style: solid;
+	}
+}
+#MainContent_GenDrink {	&:after {
+		border-style: solid;
+	}
+}
+#MainContent_GenDrink {	& span {
+		color: rgba(39, 55, 77, 1);
+	}
+}
+#MainContent_GenDrink {	@include text-alignment-all('center');
+}
+#MainContent_GenDrink {	span {
+		font-family: Arial Unicode;
+	}
+}
+#MainContent_GenDrink {	font-size: 20px;
+}
+#MainContent_GenDrink {	@include font-weight-bold(true);
+}
+#MainContent_InsertMoney {	@include elemTop(652);
+}
+#MainContent_InsertMoney {	@include elemLeft(1024);
+}
+#MainContent_InsertMoney {	@include elemAutoWidth(158);
+}
+#MainContent_InsertMoney {	@include elemAutoHeight(66);
+}
+#MainContent_InsertMoney {	z-index: 9;
+}
+#MainContent_InsertMoney {	border-width: 2px;
+}
+#MainContent_InsertMoney {	@include border-radius(5px);
+}
+#MainContent_InsertMoney {	background-color: rgba(157, 178, 191, 1);
+}
+#MainContent_InsertMoney {	border-color: rgba(39, 55, 77, 1);
+}
+#MainContent_InsertMoney {	&:before {
+		border-color: rgba(39, 55, 77, 1);
+	}
+}
+#MainContent_InsertMoney {	&:after {
+		border-color: rgba(39, 55, 77, 1);
+	}
+}
+#MainContent_InsertMoney {	border-style: solid;
+}
+#MainContent_InsertMoney {	&:before {
+		border-style: solid;
+	}
+}
+#MainContent_InsertMoney {	&:after {
+		border-style: solid;
+	}
+}
+#MainContent_InsertMoney {	& span {
+		color: rgba(39, 55, 77, 1);
+	}
+}
+#MainContent_InsertMoney {	@include text-alignment-all('center');
+}
+#MainContent_InsertMoney {	span {
+		font-family: Arial Unicode;
+	}
+}
+#MainContent_InsertMoney {	font-size: 20px;
+}
+#MainContent_InsertMoney {	@include font-weight-bold(true);
+}
+#MainContent_GenPrice {	@include elemTop(571);
+}
+#MainContent_GenPrice {	@include elemLeft(1024);
+}
+#MainContent_GenPrice {	@include elemAutoWidth(158);
+}
+#MainContent_GenPrice {	@include elemAutoHeight(66);
+}
+#MainContent_GenPrice {	z-index: 10;
+}
+#MainContent_GenPrice {	@include border-radius(5px);
+}
+#MainContent_GenPrice {	background-color: rgba(157, 178, 191, 1);
+}
+#MainContent_GenPrice {	input {
+		@include text-alignment(center);
+	}
+}
+#MainContent_GenPrice {	.breaseNumericOutput_unit {
+		font-size: 25px;
+	}
+}
+#MainContent_ButtonBar1 {	@include elemTop(212);
+}
+#MainContent_ButtonBar1 {	@include elemLeft(1014);
+}
+#MainContent_ButtonBar1 {	@include elemWidth(168);
+}
+#MainContent_ButtonBar1 {	@include elemHeight(151);
+}
+#MainContent_ButtonBar1 {	z-index: 11;
+}
+#MainContent_FiveSec {	@include elemTop(10);
+}
+#MainContent_FiveSec {	@include elemLeft(20);
+}
+#MainContent_FiveSec {	@include elemAutoWidth(135);
+}
+#MainContent_FiveSec {	@include elemAutoHeight(54);
+}
+#MainContent_FiveSec {	z-index: 0;
+}
+#MainContent_FiveSec {	@include border-radius(5px);
+}
+#MainContent_FiveSec {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(157, 178, 191, 1);
+	}
+}
+#MainContent_FiveSec {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#MainContent_FiveSec {	span {
+		font-size: 20px;
+	}
+}
+#MainContent_FiveSec {	span {
+		font-family: Arial Unicode;
+	}
+}
+#MainContent_FiveSec {	span {
+		@include font-weight-bold(true);
+	}
+}
+#MainContent_FiveSec {	span {
+		@include font-style-italic(false);
+	}
+}
+#MainContent_TenSec {	@include elemTop(30);
+}
+#MainContent_TenSec {	@include elemLeft(20);
+}
+#MainContent_TenSec {	@include elemAutoWidth(135);
+}
+#MainContent_TenSec {	@include elemAutoHeight(54);
+}
+#MainContent_TenSec {	z-index: 1;
+}
+#MainContent_TenSec {	@include border-radius(5px);
+}
+#MainContent_TenSec {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(157, 178, 191, 1);
+	}
+}
+#MainContent_TenSec {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#MainContent_TenSec {	span {
+		font-size: 20px;
+	}
+}
+#MainContent_TenSec {	span {
+		font-family: Arial Unicode;
+	}
+}
+#MainContent_TenSec {	span {
+		@include font-weight-bold(true);
+	}
+}
+#MainContent_SizeLabel {	@include elemAutoHeight(30);
+}
+#MainContent_SizeLabel {	@include elemTop(253);
+}
+#MainContent_SizeLabel {	@include elemLeft(804);
+}
+#MainContent_SizeLabel {	@include elemAutoWidth(190);
+}
+#MainContent_SizeLabel {	z-index: 12;
+}
+#MainContent_SizeLabel {	span {
+		font-family: Arial Unicode;
+	}
+}
+#MainContent_SizeLabel {	font-size: 18px;
+}
+#MainContent_SizeLabel {	@include font-weight-bold(true);
+}
+#MainContent_SizeLabel {	@include font-style-italic(false);
+}
+#MainContent_SizeLabel {	span {
+		@include text-decoration-underline(false);
+	}
+}
+#MainContent_GenDrinkLabel {	@include elemAutoHeight(30);
+}
+#MainContent_GenDrinkLabel {	@include elemTop(505);
+}
+#MainContent_GenDrinkLabel {	@include elemLeft(804);
+}
+#MainContent_GenDrinkLabel {	@include elemAutoWidth(190);
+}
+#MainContent_GenDrinkLabel {	z-index: 13;
+}
+#MainContent_GenDrinkLabel {	span {
+		font-family: Arial Unicode;
+	}
+}
+#MainContent_GenDrinkLabel {	font-size: 18px;
+}
+#MainContent_GenDrinkLabel {	@include font-weight-bold(true);
+}
+#MainContent_GenDrinkLabel {	@include font-style-italic(false);
+}
+#MainContent_GenDrinkLabel {	span {
+		@include text-decoration-underline(false);
+	}
+}
+#MainContent_GenDrinkLabel1 {	@include elemAutoHeight(30);
+}
+#MainContent_GenDrinkLabel1 {	@include elemTop(586);
+}
+#MainContent_GenDrinkLabel1 {	@include elemLeft(804);
+}
+#MainContent_GenDrinkLabel1 {	@include elemAutoWidth(190);
+}
+#MainContent_GenDrinkLabel1 {	z-index: 14;
+}
+#MainContent_GenDrinkLabel1 {	span {
+		font-family: Arial Unicode;
+	}
+}
+#MainContent_GenDrinkLabel1 {	font-size: 18px;
+}
+#MainContent_GenDrinkLabel1 {	@include font-weight-bold(true);
+}
+#MainContent_GenDrinkLabel1 {	@include font-style-italic(false);
+}
+#MainContent_GenDrinkLabel1 {	span {
+		@include text-decoration-underline(false);
+	}
+}
+#MainContent_Change {	@include elemAutoWidth(100);
+}
+#MainContent_Change {	@include elemAutoHeight(30);
+}
+#MainContent_Change {	@include elemTop(748);
+}
+#MainContent_Change {	@include elemLeft(804);
+}
+#MainContent_Change {	z-index: 15;
+}
+#MainContent_Change {	font-size: 18px;
+}
+#MainContent_Change {	@include font-weight-bold(true);
+}
+#MainContent_Refund {	@include elemTop(733);
+}
+#MainContent_Refund {	@include elemLeft(1024);
+}
+#MainContent_Refund {	@include elemAutoWidth(159);
+}
+#MainContent_Refund {	@include elemAutoHeight(60);
+}
+#MainContent_Refund {	z-index: 16;
+}
+#MainContent_Refund {	@include border-radius(5px);
+}
+#MainContent_Refund {	background-color: rgba(157, 178, 191, 1);
+}
+#MainContent_Refund {	input {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#MainContent_Refund {	span.breaseNumericOutput_unit {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#MainContent_Refund {	input {
+		@include text-alignment(center);
+	}
+}
+#MainContent_Refund {	.breaseNumericOutput_unit {
+		font-size: 25px;
+	}
+}
+#MainContent_selectdrink {	@include elemAutoHeight(30);
+}
+#MainContent_selectdrink {	@include elemTop(459);
+}
+#MainContent_selectdrink {	@include elemLeft(278);
+}
+#MainContent_selectdrink {	@include elemAutoWidth(401);
+}
+#MainContent_selectdrink {	z-index: 17;
+}
+#MainContent_selectdrink {	@include text-alignment-all('center');
+}
+#MainContent_selectdrink {	span {
+		font-family: Arial Unicode;
+	}
+}
+#MainContent_selectdrink {	font-size: 20px;
+}

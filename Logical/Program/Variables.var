@@ -1,0 +1,74 @@
+VAR
+	COFFEESTEP : COFFEE_enum; (*Enum for coffee steps*)
+	iVl_Flag : BOOL; (*Flag *)
+	iMi_Cancel : BOOL; (*Cancel button*)
+	iMi_COFFEE : BOOL; (*Coffee selection*)
+	iMi_CoinFive : BOOL; (*5rs coin boolean to take hmi input*)
+	iMi_CoinOne : BOOL; (*1rs coin boolean to take hmi input*)
+	iMi_CoinTen : BOOL; (*10rs coin boolean to take hmi input*)
+	iMi_CoinTwo : BOOL; (*2rs coin boolean to take hmi input *)
+	iMi_COLDCOFFEE : BOOL; (*ColdCoffee selection*)
+	iMi_COLDDRINK : BOOL; (*ColdDrink Selection*)
+	iMi_DisTimeSet : {REDUND_UNREPLICABLE} INT := 5; (*Timer for dispense*)
+	iMi_TEA : BOOL; (*Tea slection*)
+	iMo_ChangeMoney : USINT; (*CHange money*)
+END_VAR
+VAR CONSTANT
+	iMo_COFFEEPRICE : USINT := 10; (*price for coffee*)
+	iMo_COLDCOFFEEPRICE : USINT := 15; (*price for coldcoffee*)
+	iMo_COLDDRINKPRICE : USINT := 20; (*price for colddrink*)
+END_VAR
+VAR
+	iMo_Display : STRING[80]; (*Display on hmi*)
+END_VAR
+VAR CONSTANT
+	iMo_FIVE : USINT := 5; (*5rs coin*)
+END_VAR
+VAR
+	iMo_GenDrink : STRING[80]; (*Generic drink*)
+	iMo_GenPrice : USINT; (*generic price*)
+	iMi_GoIntoCount : BOOL; (*process to count case*)
+END_VAR
+VAR CONSTANT
+	iMo_ONE : USINT := 1; (*1rs coin*)
+	iMo_TEAPRICE : USINT := 5; (*tea price*)
+	iMo_TEN : USINT := 10; (*10rs coin*)
+END_VAR
+VAR
+	iMo_TimerSmall : TON; (*Smalltimer for 10sec between two coins*)
+END_VAR
+VAR RETAIN
+	iMo_TotalMoney : {REDUND_UNREPLICABLE} USINT; (*Totalmoeny inserted*)
+END_VAR
+VAR CONSTANT
+	iMo_TWO : USINT := 2; (*2rs coin*)
+END_VAR
+VAR
+	iVa_DispenseDrink : BOOL; (*Dispensing drink*)
+	iVa_DisTimeSet : TON := (0); (*Timer for dispensing drink*)
+	iVa_TimerFull : TON; (*40sec timer to put in all coins*)
+	iVa_Svg : STRING[80]; (*Input string for svg to animate*)
+	iVl_THIRTY : UDINT := 30; (*30 seconds for timer to diplay on hmi*)
+END_VAR
+VAR CONSTANT
+	iVa_ONESEC : TIME := T#1s; (*1 second timer*)
+END_VAR
+VAR
+	iVa_GoIntoIdle : BOOL; (*to go into idle case*)
+	iMo_InsertCoin : UDINT; (*Insertcoin *)
+	iVa_Cancel : TON; (*Cancel Button*)
+	iVl_ChangeFlag : BOOL; (*Change buttton*)
+	iVl_THIRTYTIMER : TIME := T#30S; (*Thirty second timer*)
+	iVa_DisAnime : BOOL; (*Animation for Dispense*)
+	iMo_Bar : UDINT; (*Bar value*)
+	iMo_BarMax : INT; (*Bar max value*)
+END_VAR
+VAR RETAIN
+	iMo_TotalInsertMoney : INT; (*Total money inserted till now*)
+END_VAR
+VAR
+	iMo_PieCoffee : INT; (*Pie chart coffee counts*)
+	iMo_PieTea : INT; (*Pie chart  tea counts*)
+	iMo_PieCD : INT; (*Pie chart colddrink counts*)
+	iMo_PieCC : INT; (*Pie chart colcounts*)
+END_VAR

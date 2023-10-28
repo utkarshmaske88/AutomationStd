@@ -1,0 +1,259 @@
+@import "mixins.scss";
+#InsertMoney_Content_ONE {	@include elemTop(684);
+}
+#InsertMoney_Content_ONE {	@include elemLeft(156);
+}
+#InsertMoney_Content_ONE {	@include elemAutoWidth(99);
+}
+#InsertMoney_Content_ONE {	@include elemAutoHeight(60);
+}
+#InsertMoney_Content_ONE {	z-index: 0;
+}
+#InsertMoney_Content_ONE {	@include border-radius(5px);
+}
+#InsertMoney_Content_ONE {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(221, 230, 237, 1);
+	}
+}
+#InsertMoney_Content_ONE {	span {
+		font-size: 45px;
+	}
+}
+#InsertMoney_Content_ONE {	span {
+		@include font-weight-bold(true);
+	}
+}
+#InsertMoney_Content_TWO {	@include elemTop(684);
+}
+#InsertMoney_Content_TWO {	@include elemLeft(406);
+}
+#InsertMoney_Content_TWO {	@include elemAutoWidth(99);
+}
+#InsertMoney_Content_TWO {	@include elemAutoHeight(60);
+}
+#InsertMoney_Content_TWO {	z-index: 1;
+}
+#InsertMoney_Content_TWO {	@include border-radius(5px);
+}
+#InsertMoney_Content_TWO {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(221, 230, 237, 1);
+	}
+}
+#InsertMoney_Content_TWO {	span {
+		font-size: 45px;
+	}
+}
+#InsertMoney_Content_TWO {	span {
+		@include font-weight-bold(true);
+	}
+}
+#InsertMoney_Content_FIVE {	@include elemTop(684);
+}
+#InsertMoney_Content_FIVE {	@include elemLeft(655);
+}
+#InsertMoney_Content_FIVE {	@include elemAutoWidth(99);
+}
+#InsertMoney_Content_FIVE {	@include elemAutoHeight(60);
+}
+#InsertMoney_Content_FIVE {	z-index: 2;
+}
+#InsertMoney_Content_FIVE {	@include border-radius(5px);
+}
+#InsertMoney_Content_FIVE {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(221, 230, 237, 1);
+	}
+}
+#InsertMoney_Content_FIVE {	span {
+		font-size: 45px;
+	}
+}
+#InsertMoney_Content_FIVE {	span {
+		@include font-weight-bold(true);
+	}
+}
+#InsertMoney_Content_TEN {	@include elemTop(684);
+}
+#InsertMoney_Content_TEN {	@include elemLeft(905);
+}
+#InsertMoney_Content_TEN {	@include elemAutoWidth(99);
+}
+#InsertMoney_Content_TEN {	@include elemAutoHeight(60);
+}
+#InsertMoney_Content_TEN {	z-index: 3;
+}
+#InsertMoney_Content_TEN {	@include border-radius(5px);
+}
+#InsertMoney_Content_TEN {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(221, 230, 237, 1);
+	}
+}
+#InsertMoney_Content_TEN {	span {
+		font-size: 45px;
+	}
+}
+#InsertMoney_Content_TEN {	span {
+		@include font-weight-bold(true);
+	}
+}
+#InsertMoney_Content_GenPrice {	@include elemTop(250);
+}
+#InsertMoney_Content_GenPrice {	@include elemLeft(1008);
+}
+#InsertMoney_Content_GenPrice {	@include elemAutoWidth(159);
+}
+#InsertMoney_Content_GenPrice {	@include elemAutoHeight(60);
+}
+#InsertMoney_Content_GenPrice {	z-index: 4;
+}
+#InsertMoney_Content_GenPrice {	@include border-radius(5px);
+}
+#InsertMoney_Content_GenPrice {	background-color: rgba(157, 178, 191, 1);
+}
+#InsertMoney_Content_GenPrice {	input {
+		@include text-alignment(center);
+	}
+}
+#InsertMoney_Content_GenPrice {	.breaseNumericOutput_unit {
+		font-size: 25px;
+	}
+}
+#InsertMoney_Content_TextOutput6 {	@include elemTop(266);
+}
+#InsertMoney_Content_TextOutput6 {	@include elemLeft(732);
+}
+#InsertMoney_Content_TextOutput6 {	@include elemAutoWidth(252);
+}
+#InsertMoney_Content_TextOutput6 {	@include elemAutoHeight(29);
+}
+#InsertMoney_Content_TextOutput6 {	z-index: 5;
+}
+#InsertMoney_Content_TextOutput6 {	span {
+		font-family: Arial Unicode;
+	}
+}
+#InsertMoney_Content_TextOutput6 {	font-size: 20px;
+}
+#InsertMoney_Content_TextOutput6 {	@include font-weight-bold(true);
+}
+#InsertMoney_Content_NumericOutput3 {	@include elemTop(334);
+}
+#InsertMoney_Content_NumericOutput3 {	@include elemLeft(1008);
+}
+#InsertMoney_Content_NumericOutput3 {	@include elemAutoWidth(159);
+}
+#InsertMoney_Content_NumericOutput3 {	@include elemAutoHeight(60);
+}
+#InsertMoney_Content_NumericOutput3 {	z-index: 6;
+}
+#InsertMoney_Content_NumericOutput3 {	@include border-radius(5px);
+}
+#InsertMoney_Content_NumericOutput3 {	background-color: rgba(157, 178, 191, 1);
+}
+#InsertMoney_Content_NumericOutput3 {	input {
+		@include text-alignment(center);
+	}
+}
+#InsertMoney_Content_NumericOutput3 {	.breaseNumericOutput_unit {
+		font-size: 25px;
+	}
+}
+#InsertMoney_Content_TextOutput7 {	@include elemTop(351);
+}
+#InsertMoney_Content_TextOutput7 {	@include elemLeft(732);
+}
+#InsertMoney_Content_TextOutput7 {	@include elemAutoWidth(252);
+}
+#InsertMoney_Content_TextOutput7 {	@include elemAutoHeight(29);
+}
+#InsertMoney_Content_TextOutput7 {	z-index: 7;
+}
+#InsertMoney_Content_TextOutput7 {	span {
+		font-family: Arial Unicode;
+	}
+}
+#InsertMoney_Content_TextOutput7 {	font-size: 20px;
+}
+#InsertMoney_Content_TextOutput7 {	@include font-weight-bold(true);
+}
+#InsertMoney_Content_Display {	@include elemTop(589);
+}
+#InsertMoney_Content_Display {	@include elemLeft(355);
+}
+#InsertMoney_Content_Display {	@include elemAutoWidth(438);
+}
+#InsertMoney_Content_Display {	@include elemAutoHeight(52);
+}
+#InsertMoney_Content_Display {	z-index: 8;
+}
+#InsertMoney_Content_Display {	@include border-radius(5px);
+}
+#InsertMoney_Content_Display {	background-color: rgba(39, 55, 77, 1);
+}
+#InsertMoney_Content_Display {	& span {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#InsertMoney_Content_Display {	@include text-alignment-all('center');
+}
+#InsertMoney_Content_Display {	span {
+		font-family: Arial Unicode;
+	}
+}
+#InsertMoney_Content_Display {	font-size: 20px;
+}
+#InsertMoney_Content_Display {	@include font-weight-bold(false);
+}
+#InsertMoney_Content_NumericOutput4 {	@include elemTop(418);
+}
+#InsertMoney_Content_NumericOutput4 {	@include elemLeft(1006);
+}
+#InsertMoney_Content_NumericOutput4 {	@include elemAutoWidth(159);
+}
+#InsertMoney_Content_NumericOutput4 {	@include elemAutoHeight(60);
+}
+#InsertMoney_Content_NumericOutput4 {	z-index: 9;
+}
+#InsertMoney_Content_NumericOutput4 {	@include border-radius(5px);
+}
+#InsertMoney_Content_NumericOutput4 {	background-color: rgba(157, 178, 191, 1);
+}
+#InsertMoney_Content_NumericOutput4 {	input {
+		@include text-alignment(center);
+	}
+}
+#InsertMoney_Content_NumericOutput4 {	.breaseNumericOutput_unit {
+		font-size: 25px;
+	}
+}
+#InsertMoney_Content_TextOutput8 {	@include elemTop(435);
+}
+#InsertMoney_Content_TextOutput8 {	@include elemLeft(732);
+}
+#InsertMoney_Content_TextOutput8 {	@include elemAutoWidth(252);
+}
+#InsertMoney_Content_TextOutput8 {	@include elemAutoHeight(29);
+}
+#InsertMoney_Content_TextOutput8 {	z-index: 10;
+}
+#InsertMoney_Content_TextOutput8 {	span {
+		font-family: Arial Unicode;
+	}
+}
+#InsertMoney_Content_TextOutput8 {	font-size: 20px;
+}
+#InsertMoney_Content_TextOutput8 {	@include font-weight-bold(true);
+}
+#InsertMoney_Content_Label2 {	@include elemAutoHeight(30);
+}
+#InsertMoney_Content_Label2 {	@include elemTop(433);
+}
+#InsertMoney_Content_Label2 {	@include elemLeft(1106);
+}
+#InsertMoney_Content_Label2 {	@include elemAutoWidth(52);
+}
+#InsertMoney_Content_Label2 {	z-index: 11;
+}
+#InsertMoney_Content_Label2 {	font-size: 18px;
+}
+#InsertMoney_Content_Label2 {	@include font-weight-bold(true);
+}

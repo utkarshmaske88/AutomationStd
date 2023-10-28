@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StyleInformation name="widgets.brease.PieChart" xmlns="http://www.br-automation.com/iat2014/widgetStyles" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <StyleProperties>
+    <StyleProperty name="height" category="Layout" type="Size" not_styleable="true" default="200">
+      <StyleElement attribute="@include elemHeight($value)"></StyleElement>
+      <Description>Outer height of the widget</Description>
+    </StyleProperty>
+    <StyleProperty name="width" category="Layout" type="Size" not_styleable="true" default="200">
+      <StyleElement attribute="@include elemWidth($value)"></StyleElement>
+      <Description>Outer width of the widget</Description>
+    </StyleProperty>
+    <StyleProperty name="minWidth" type="Size" not_styleable="true" default="0" category="Layout" groupRefId="Size" groupOrder="3">
+      <StyleElement attribute="@include elemMinWidth($value)"></StyleElement>
+      <Description>minimum outer width of widget</Description>
+    </StyleProperty>
+    <StyleProperty name="maxWidth" type="Size" not_styleable="true" default="0" category="Layout" groupRefId="Size" groupOrder="4">
+      <StyleElement attribute="@include elemMaxWidth($value)"></StyleElement>
+      <Description>maximum outer width of widget</Description>
+    </StyleProperty>
+    <StyleProperty name="minHeight" type="Size" not_styleable="true" default="0" category="Layout" groupRefId="Size" groupOrder="5">
+      <StyleElement attribute="@include elemMinHeight($value)"></StyleElement>
+      <Description>minimum outer height of widget</Description>
+    </StyleProperty>
+    <StyleProperty name="maxHeight" type="Size" not_styleable="true" default="0" category="Layout" groupRefId="Size" groupOrder="6">
+      <StyleElement attribute="@include elemMaxHeight($value)"></StyleElement>
+      <Description>maximum outer height of widget</Description>
+    </StyleProperty>
+    <StyleProperty name="borderWidth" category="Appearance" type="PixelVal" default="1px">
+      <StyleElement selector=".pieChartDefault" attribute="stroke-width"></StyleElement>
+      <Description>Sets the border width</Description>
+    </StyleProperty>
+    <StyleProperty name="borderColor" category="Appearance" type="Color" default="#000000" >
+      <StyleElement selector=".pieChartDefault" attribute="stroke"></StyleElement>
+      <Description>border color of the widget</Description>
+    </StyleProperty>
+    <StyleProperty name="backColor" category="Appearance" type="Color" default="#FFFFFF">
+      <StyleElement selector=".pieChartDefault" attribute="fill"></StyleElement>
+      <StyleElement selector=".pieWidget > path" attribute="stroke"></StyleElement>
+      <Description>background color of the widget</Description>
+    </StyleProperty>
+
+    <StyleProperty name="backColorInfoBox" category="Appearance" type="Color" default="#FFFFFF">
+      <StyleElement selector=".infoBox > rect" attribute="fill"></StyleElement>
+      <Description>background color of the widget</Description>
+    </StyleProperty>
+      
+    <StyleProperty name="textColor" category="Appearance" type="Color"  default="#000000" >
+      <StyleElement selector="text" attribute="fill"></StyleElement>
+      <Description> Sets the color of the Texts </Description>
+    </StyleProperty>
+    <!--<StyleProperty name="textShadow" category="Appearance" type="Shadow"  default="none" >
+      <StyleElement selector="text" attribute="text-shadow"></StyleElement>
+      <Description> Sets the shadow of the Texts </Description>
+    </StyleProperty>-->
+    
+    <StyleProperty name="fontSize" category="Font" type="PixelVal"  default="12px" >
+      <StyleElement selector="text" attribute="font-size"></StyleElement>
+      <Description> Sets the Size of the text </Description>
+    </StyleProperty>
+    <StyleProperty name="fontName" category="Font" type="FontName"  default="Arial">
+      <StyleElement selector="text" attribute="font-family"></StyleElement>
+      <Description> Sets the font name of the Texts </Description>
+    </StyleProperty>
+    <StyleProperty name="bold" category="Font" type="Boolean"  default="false">
+      <StyleElement selector="text" attribute="@include font-weight-bold($value)"></StyleElement>
+      <Description> Sets the bold property of the Texts </Description>
+    </StyleProperty>
+    <StyleProperty name="italic" category="Font" type="Boolean"  default="false">
+      <StyleElement selector="text" attribute="@include font-style-italic($value)"></StyleElement>
+      <Description> Sets the italic property of the Texts </Description>
+    </StyleProperty>
+
+    <StyleProperty name="opacity" category="Appearance" type="Opacity" default="1">
+      <StyleElement attribute="opacity"></StyleElement>
+      <Description>opacity of the widget</Description>
+    </StyleProperty>
+    <StyleProperty name="padding" category="Layout"  type="Padding" default="0px">
+      <StyleElement attribute="padding"></StyleElement>
+      <Description>padding of the widget</Description>
+    </StyleProperty>
+    <StyleProperty name="margin" category="Layout"  type="Margin" default="0px">
+      <StyleElement attribute="margin"></StyleElement>
+      <Description>margin of the widget</Description>
+    </StyleProperty>
+
+
+    <!-- To do-->
+
+  </StyleProperties>
+</StyleInformation>

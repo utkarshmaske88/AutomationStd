@@ -1,0 +1,47 @@
+@import "mixins.scss";
+@mixin widgets_brease_PieChart_base {
+	@include elemWidth(200);
+	@include elemHeight(200);
+	@include elemMinWidth(0);
+	@include elemMaxWidth(0);
+	@include elemMinHeight(0);
+	@include elemMaxHeight(0);
+	.pieChartDefault {
+		stroke-width: 1px;
+	}
+	.pieChartDefault {
+		stroke: #000000;
+	}
+	.pieChartDefault {
+		fill: #FFFFFF;
+	}
+	.pieWidget > path {
+		stroke: #FFFFFF;
+	}
+	.infoBox > rect {
+		fill: #FFFFFF;
+	}
+	text {
+		fill: #000000;
+	}
+	text {
+		font-size: 12px;
+	}
+	text {
+		font-family: Arial;
+	}
+	text {
+		@include font-weight-bold(false);
+	}
+	text {
+		@include font-style-italic(false);
+	}
+	opacity: 1;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.widgets_brease_PieChart_style_default {
+@include widgets_brease_PieChart_base
+}

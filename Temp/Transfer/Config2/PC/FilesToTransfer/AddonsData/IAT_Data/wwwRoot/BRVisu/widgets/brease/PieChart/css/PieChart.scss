@@ -1,0 +1,34 @@
+@import '../../../../css/libs/variables.scss';
+@import '../../../../css/libs/mixins.scss';
+
+.breasePieChart {
+
+	overflow: hidden;
+
+	height: 200px;
+	width: 200px;
+    border-width: 0px;
+    border-color: #000;
+	background-color: transparent;
+	box-sizing: border-box;
+
+	.pieChartDefault {
+		fill: none;
+		stroke: #000;
+		stroke-width: 1px;
+	}
+
+	.infoBox {
+		display: none;
+		rect {
+			fill: #FFFFFF;
+			width: 100px;
+		    stroke: #DCDCDC;
+			stroke-width: 1px;
+		}
+
+	}
+}
+
+
+/*To do*/

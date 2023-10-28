@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.4.107 SP"?>
+<Objects>
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="133413378288288680" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="133413359584594726"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="133413359584750520"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="133413375486009962" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Libraries\operator\binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="133413359613930141" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="133413359613772641"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="133413359613772641"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="133413359613772641"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Libraries\runtime\binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="133413359616869973" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="133413359616869973"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="133413359616869973"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="133413359616869973"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Libraries\astime\binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="133413359619800874" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="133413359619800874"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="133413359619800874"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="133413359619800874"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Libraries\AsIecCon\binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="133413359622860200" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="133413359622860200"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="133413359622860200"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="133413359622860200"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Libraries\standard\binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="133413375485890104" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="133413375485809938"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Libraries\standard\standard.typ"
+    LogicalPath="Libraries.standard.standard.typ"
+    Type="File"
+    LastWriteTime="133413375485849923"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Libraries\standard\standard.var"
+    LogicalPath="Libraries.standard.standard.var"
+    Type="File"
+    LastWriteTime="133413375485869949"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Program\IEC.prg"
+    LogicalPath="Program"
+    Type="Program"
+    LastWriteTime="133413372798132167" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Program\Main.st"
+    LogicalPath="Program.Main.st"
+    Type="File"
+    LastWriteTime="133424686996633186"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Program\Types.typ"
+    LogicalPath="Program.Types.typ"
+    Type="File"
+    LastWriteTime="133420391505189541"
+    Private="true" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\Program\Variables.var"
+    LogicalPath="Program.Variables.var"
+    Type="File"
+    LastWriteTime="133424744114643039"
+    Private="true" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Package.pkg"
+    LogicalPath="mappView"
+    Type="Package"
+    LastWriteTime="133413412549405029" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Layouts\Package.pkg"
+    LogicalPath="mappView.Layouts"
+    Type="Package"
+    LastWriteTime="133413378287708690" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Widgets\Package.pkg"
+    LogicalPath="mappView.Widgets"
+    Type="Package"
+    LastWriteTime="133413378287798683" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Resources\Package.pkg"
+    LogicalPath="mappView.Resources"
+    Type="Package"
+    LastWriteTime="133413378288248697" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Resources\Texts\Package.pkg"
+    LogicalPath="mappView.Resources.Texts"
+    Type="Package"
+    LastWriteTime="133413378287948686" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Resources\Snippets\Package.pkg"
+    LogicalPath="mappView.Resources.Snippets"
+    Type="Package"
+    LastWriteTime="133413378288028686" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Resources\Themes\Package.pkg"
+    LogicalPath="mappView.Resources.Themes"
+    Type="Package"
+    LastWriteTime="133424691068647147" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Resources\Media\Package.pkg"
+    LogicalPath="mappView.Resources.Media"
+    Type="Package"
+    LastWriteTime="133413378288208692" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Visualization\Package.pkg"
+    LogicalPath="mappView.Visualization"
+    Type="Package"
+    LastWriteTime="133413412549384324" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Visualization\Pages\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages"
+    Type="Package"
+    LastWriteTime="133416675337876182" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Visualization\Pages\AreaContents\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.AreaContents"
+    Type="Package"
+    LastWriteTime="133413412548794825" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Visualization\Pages\CoffeeMainPage\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.CoffeeMainPage"
+    Type="Package"
+    LastWriteTime="133420248359429201" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Visualization\Pages\CoffeeMainPage\Page.page"
+    LogicalPath="mappView.Visualization.Pages.CoffeeMainPage.Page.page"
+    Type="File"
+    LastWriteTime="133416921234934509"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Visualization\Pages\CoffeeMainPage\MainContent.content"
+    LogicalPath="mappView.Visualization.Pages.CoffeeMainPage.MainContent.content"
+    Type="File"
+    LastWriteTime="133424426976867095"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Visualization\Pages\CoffeeMainPage\InsertMoney_Content.content"
+    LogicalPath="mappView.Visualization.Pages.CoffeeMainPage.InsertMoney_Content.content"
+    Type="File"
+    LastWriteTime="133420109750161362"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Visualization\Pages\CoffeeMainPage\Dispense_Content.content"
+    LogicalPath="mappView.Visualization.Pages.CoffeeMainPage.Dispense_Content.content"
+    Type="File"
+    LastWriteTime="133420174542728076"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Visualization\Pages\CoffeeMainPage\HeaderCoffee.content"
+    LogicalPath="mappView.Visualization.Pages.CoffeeMainPage.HeaderCoffee.content"
+    Type="File"
+    LastWriteTime="133424687961022099"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Visualization\Pages\CoffeeMainPage\Loggedin_content.content"
+    LogicalPath="mappView.Visualization.Pages.CoffeeMainPage.Loggedin_content.content"
+    Type="File"
+    LastWriteTime="133424721148077131"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Visualization\Variables\Package.pkg"
+    LogicalPath="mappView.Visualization.Variables"
+    Type="Package"
+    LastWriteTime="133424688051644000" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Visualization\Expressions\Package.pkg"
+    LogicalPath="mappView.Visualization.Expressions"
+    Type="Package"
+    LastWriteTime="133413412548964333" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Visualization\Layouts\Package.pkg"
+    LogicalPath="mappView.Visualization.Layouts"
+    Type="Package"
+    LastWriteTime="133424692035961022" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Visualization\Layouts\Layout.layout"
+    LogicalPath="mappView.Visualization.Layouts.Layout.layout"
+    Type="File"
+    LastWriteTime="133416908001761967"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Visualization\Dialogs\Package.pkg"
+    LogicalPath="mappView.Visualization.Dialogs"
+    Type="Package"
+    LastWriteTime="133424692137643528" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Visualization\Resources\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources"
+    Type="Package"
+    LastWriteTime="133413412549364330" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Visualization\Resources\Texts\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources.Texts"
+    Type="Package"
+    LastWriteTime="133413412549284331" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Logical\mappView\Visualization\Resources\Snippets\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources.Snippets"
+    Type="Package"
+    LastWriteTime="133413412549354334" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\Config.pkg"
+    LogicalPath="Config1"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="133424741075492659" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\Hardware.hw"
+    LogicalPath="Config1.Hardware.hw"
+    Type="File"
+    LastWriteTime="133424749307237744"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\Hardware.hwl"
+    LogicalPath="Config1.Hardware.hwl"
+    Type="File"
+    LastWriteTime="133424749241324574"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\Cpu.pkg"
+    LogicalPath="Config1.X20CP0484"
+    Type="Cpu"
+    LastWriteTime="133424750062270468" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\Cpu.sw"
+    LogicalPath="Config1.X20CP0484.Cpu.sw"
+    Type="File"
+    LastWriteTime="133424741390673317"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\Cpu.per"
+    LogicalPath="Config1.X20CP0484.Cpu.per"
+    Type="File"
+    LastWriteTime="133424741019988228"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\IoMap.iom"
+    LogicalPath="Config1.X20CP0484.IoMap.iom"
+    Type="File"
+    LastWriteTime="133424741020675158"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\PvMap.vvm"
+    LogicalPath="Config1.X20CP0484.PvMap.vvm"
+    Type="File"
+    LastWriteTime="133424741021144399"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\Connectivity\Package.pkg"
+    LogicalPath="Config1.X20CP0484.Connectivity"
+    Type="Package"
+    LastWriteTime="133424741024621371" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="Config1.X20CP0484.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="133424741676840163" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\Connectivity\OpcUA\OpcUaMap.uad"
+    LogicalPath="Config1.X20CP0484.Connectivity.OpcUA.OpcUaMap.uad"
+    Type="File"
+    LastWriteTime="133424741939910447"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\Connectivity\OpcUaFx\Package.pkg"
+    LogicalPath="Config1.X20CP0484.Connectivity.OpcUaFx"
+    Type="Package"
+    LastWriteTime="133424741024309068" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\TextSystem\Package.pkg"
+    LogicalPath="Config1.X20CP0484.TextSystem"
+    Type="Package"
+    LastWriteTime="133424741025674238" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\UnitSystem\Package.pkg"
+    LogicalPath="Config1.X20CP0484.UnitSystem"
+    Type="Package"
+    LastWriteTime="133424741026471210" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\AccessAndSecurity\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="133424741034497199" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="133424741027786243" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="133424741027629609"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="133424741027786243"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="133424741032799196" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="133424741030015775" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="133424741028856147" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="133424741029638007" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="133424741031176863" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="133424741031019528" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="133424741032072695" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="133424741032642326" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="133424741033511234" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\AccessAndSecurity\Firewall\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.Firewall"
+    Type="Package"
+    LastWriteTime="133424741034340234" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\AccessAndSecurity\Firewall\Rules.firewallRules"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.Firewall.Rules.firewallRules"
+    Type="File"
+    LastWriteTime="133424741034340234"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\mappControl\Package.pkg"
+    LogicalPath="Config1.X20CP0484.mappControl"
+    Type="Package"
+    LastWriteTime="133424741035121845" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\mappMotion\Package.pkg"
+    LogicalPath="Config1.X20CP0484.mappMotion"
+    Type="Package"
+    LastWriteTime="133424741035807836" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\mappServices\Package.pkg"
+    LogicalPath="Config1.X20CP0484.mappServices"
+    Type="Package"
+    LastWriteTime="133424741036341679" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\mappSafety\Package.pkg"
+    LogicalPath="Config1.X20CP0484.mappSafety"
+    Type="Package"
+    LastWriteTime="133424741038657272" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\mappSafety\SafeApplication\Package.pkg"
+    LogicalPath="Config1.X20CP0484.mappSafety.SafeApplication"
+    Type="Package"
+    LastWriteTime="133424741037653369" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\mappSafety\SafeCommissioning\Package.pkg"
+    LogicalPath="Config1.X20CP0484.mappSafety.SafeCommissioning"
+    Type="Package"
+    LastWriteTime="133424741038500565" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\mappView\Package.pkg"
+    LogicalPath="Config1.X20CP0484.mappView"
+    Type="Package"
+    LastWriteTime="133424741416427422" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\mappView\Visualizat.vis"
+    LogicalPath="Config1.X20CP0484.mappView.Visualizat.vis"
+    Type="File"
+    LastWriteTime="133424741555629009"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\mappView\Var_Binding.binding"
+    LogicalPath="Config1.X20CP0484.mappView.Var_Binding.binding"
+    Type="File"
+    LastWriteTime="133424741393524499"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\mappView\MainContent.eventbinding"
+    LogicalPath="Config1.X20CP0484.mappView.MainContent.eventbinding"
+    Type="File"
+    LastWriteTime="133424741396158646"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\mappView\MainContent.binding"
+    LogicalPath="Config1.X20CP0484.mappView.MainContent.binding"
+    Type="File"
+    LastWriteTime="133424741398223770"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\mappView\InsertMoney_Content.eventbinding"
+    LogicalPath="Config1.X20CP0484.mappView.InsertMoney_Content.eventbinding"
+    Type="File"
+    LastWriteTime="133424741400449759"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\mappView\InsertMoney_Content.binding"
+    LogicalPath="Config1.X20CP0484.mappView.InsertMoney_Content.binding"
+    Type="File"
+    LastWriteTime="133424741402859930"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\mappView\Dispene_Content.binding"
+    LogicalPath="Config1.X20CP0484.mappView.Dispene_Content.binding"
+    Type="File"
+    LastWriteTime="133424741405246235"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\mappView\HeaderCoffee.binding"
+    LogicalPath="Config1.X20CP0484.mappView.HeaderCoffee.binding"
+    Type="File"
+    LastWriteTime="133424741407249036"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\mappView\HeaderCoffee.eventbinding"
+    LogicalPath="Config1.X20CP0484.mappView.HeaderCoffee.eventbinding"
+    Type="File"
+    LastWriteTime="133424741409721758"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\mappView\LoggedIn.binding"
+    LogicalPath="Config1.X20CP0484.mappView.LoggedIn.binding"
+    Type="File"
+    LastWriteTime="133424741411881533"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\mappView\LoggedIn.eventbinding"
+    LogicalPath="Config1.X20CP0484.mappView.LoggedIn.eventbinding"
+    Type="File"
+    LastWriteTime="133424741414110149"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\mappView\Config.mappviewcfg"
+    LogicalPath="Config1.X20CP0484.mappView.Config.mappviewcfg"
+    Type="File"
+    LastWriteTime="133424741556319963"
+    Private="false" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\mappVision\Package.pkg"
+    LogicalPath="Config1.X20CP0484.mappVision"
+    Type="Package"
+    LastWriteTime="133424741040354242" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\X20CP0484\mappCockpit\Package.pkg"
+    LogicalPath="Config1.X20CP0484.mappCockpit"
+    Type="Package"
+    LastWriteTime="133424741041133792" />
+  <Object
+    Path="C:\Users\maskeu\Desktop\All\projects\ECamp\CoffeeMachine\Physical\Config1\Hardware.jpg"
+    LogicalPath="Config1.Hardware.jpg"
+    Type="File"
+    LastWriteTime="133424749242430762"
+    Private="false" />
+</Objects>

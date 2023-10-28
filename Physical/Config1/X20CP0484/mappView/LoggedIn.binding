@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="LoggedIn_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_PieCoffee" attribute="value" />
+<Target xsi:type="brease" contentRefId="LoggedIn" widgetRefId="PieChartItem2" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_PieTea" attribute="value" />
+<Target xsi:type="brease" contentRefId="LoggedIn" widgetRefId="PieChartItem1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_PieCD" attribute="node" />
+<Target xsi:type="brease" contentRefId="LoggedIn" widgetRefId="PieChartItem4" attribute="node" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_PieCC" attribute="value" />
+<Target xsi:type="brease" contentRefId="LoggedIn" widgetRefId="PieChartItem3" attribute="value" />
+</Binding>
+
+
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_TotalInsertMoney" attribute="node" />
+<Target xsi:type="brease" contentRefId="LoggedIn" widgetRefId="NumericOutput3" attribute="node" />
+</Binding>
+</Bindings>
+</BindingsSet>

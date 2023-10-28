@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="MainContent">
+    <EventBinding id="MainContent.Image1.Click">
+      <Source type="widgets.brease.Image.Event" event="Click" refId="MainContent_Coffee" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::Program:iMi_COFFEE">
+            <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="MainContent">
+    <EventBinding id="EventBinding_1">
+      <Source type="widgets.brease.Image.Event" event="Click" refId="MainContent_Tea" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::Program:iMi_TEA">
+            <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="MainContent">
+    <EventBinding id="EventBinding_2">
+      <Source type="widgets.brease.Image.Event" event="Click" refId="MainContent_Colddrink" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::Program:iMi_COLDDRINK">
+            <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="MainContent">
+    <EventBinding id="EventBinding_3">
+      <Source type="widgets.brease.Image.Event" event="Click" refId="MainContent_coldcoffee" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::Program:iMi_COLDCOFFEE">
+            <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="MainContent">
+    <EventBinding id="EventBinding_5">
+      <Source type="widgets.brease.TextOutput.Event" event="Click" refId="MainContent_InsertMoney" />
+      <EventHandler>
+        <Sequence>
+          <Step order="1">
+            <Action>
+              <Target type="opcUa.NodeAction" refId="::Program:iMi_GoIntoCount">
+                <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+          <Step order="2">
+            <Action>
+              <Target type="clientSystem.Action">
+                <Method type="clientSystem.Action.LoadContentInArea"><Parameter name="contentId" xsi:type="ANY_STRING" value="InsertMoney_Content" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="pageId" xsi:type="ANY_STRING" value="CoffeeMainPage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="areaId" xsi:type="ANY_STRING" value="HeroContent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="MainContent">
+    <EventBinding id="MainContent.ToggleButton2.Click">
+      <Source type="widgets.brease.ToggleButton.Event" event="Click" refId="MainContent_FiveSec" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::Program:iMi_DisTimeSet">
+            <Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="MainContent">
+    <EventBinding id="EventBinding_9">
+      <Source type="widgets.brease.ToggleButton.Event" event="Click" refId="MainContent_TenSec" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::Program:iMi_DisTimeSet">
+            <Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+</EventBindingDefinition>

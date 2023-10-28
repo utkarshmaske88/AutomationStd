@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="InsertMoney_Content">
+    <EventBinding id="InsertMoney_Content.ONE.Click">
+      <Source type="widgets.brease.PushButton.Event" event="Click" refId="InsertMoney_Content_ONE" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::Program:iMi_CoinOne">
+            <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="InsertMoney_Content">
+    <EventBinding id="EventBinding_4">
+      <Source type="widgets.brease.PushButton.Event" event="Click" refId="InsertMoney_Content_TWO" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::Program:iMi_CoinTwo">
+            <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="InsertMoney_Content">
+    <EventBinding id="EventBinding_6">
+      <Source type="widgets.brease.PushButton.Event" event="Click" refId="InsertMoney_Content_FIVE" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::Program:iMi_CoinFive">
+            <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="InsertMoney_Content">
+    <EventBinding id="EventBinding_7">
+      <Source type="widgets.brease.PushButton.Event" event="Click" refId="InsertMoney_Content_TEN" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::Program:iMi_CoinTen">
+            <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Visualization>
+    <EventBinding id="EventBinding_8">
+      <Source type="opcUa.Event" refId="::Program:iVa_DispenseDrink" event="ValueChanged" />
+      <EventHandler condition="newValue=TRUE">
+        <Action>
+          <Target type="clientSystem.Action">
+            <Method type="clientSystem.Action.LoadContentInArea"><Parameter name="contentId" xsi:type="ANY_STRING" value="Dispene_Content" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="pageId" xsi:type="ANY_STRING" value="CoffeeMainPage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="areaId" xsi:type="ANY_STRING" value="HeroContent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=FALSE">
+        <Action>
+          <Target type="clientSystem.Action">
+            <Method type="clientSystem.Action.LoadContentInArea"><Parameter name="contentId" xsi:type="ANY_STRING" value="MainContent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="pageId" xsi:type="ANY_STRING" value="CoffeeMainPage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="areaId" xsi:type="ANY_STRING" value="HeroContent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Visualization>
+</EventBindingDefinition>

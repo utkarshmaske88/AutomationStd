@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="Dispene_Content_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+
+
+
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iVa_Svg" attribute="value" />
+<Target xsi:type="brease" contentRefId="Dispene_Content" widgetRefId="PaperSvg" attribute="transform" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_ChangeMoney" attribute="node" />
+<Target xsi:type="brease" contentRefId="Dispene_Content" widgetRefId="Refund" attribute="node" />
+</Binding>
+
+	<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iVa_DisAnime" attribute="value" />
+<Target xsi:type="brease" contentRefId="Dispene_Content" widgetRefId="DisImage" attribute="visible" />
+</Binding>
+
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_Bar" attribute="value" />
+<Target xsi:type="brease" contentRefId="Dispene_Content" widgetRefId="ProgressBar1" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_BarMax" attribute="value" />
+<Target xsi:type="brease" contentRefId="Dispene_Content" widgetRefId="ProgressBar1" attribute="maxValue" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_Display" attribute="value" />
+<Target xsi:type="brease" contentRefId="Dispene_Content" widgetRefId="Display" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

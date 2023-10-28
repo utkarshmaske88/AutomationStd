@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+  
+
+
+
+<Content id="Dispene_Content"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iVa_Svg" attribute="value" />
+<Target xsi:type="brease" refId="Dispene_Content_PaperSvg" attribute="transform" />
+</Binding></Content>
+
+
+
+<Content id="Dispene_Content"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_ChangeMoney" attribute="node" />
+<Target xsi:type="brease" refId="Dispene_Content_Refund" attribute="node" />
+</Binding></Content>
+
+
+
+
+	<Content id="Dispene_Content"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iVa_DisAnime" attribute="value" />
+<Target xsi:type="brease" refId="Dispene_Content_DisImage" attribute="visible" />
+</Binding></Content>
+
+
+
+
+<Content id="Dispene_Content"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_Bar" attribute="value" />
+<Target xsi:type="brease" refId="Dispene_Content_ProgressBar1" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="Dispene_Content"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_BarMax" attribute="value" />
+<Target xsi:type="brease" refId="Dispene_Content_ProgressBar1" attribute="maxValue" />
+</Binding></Content>
+
+
+
+<Content id="Dispene_Content"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Program:iMo_Display" attribute="value" />
+<Target xsi:type="brease" refId="Dispene_Content_Display" attribute="value" />
+</Binding></Content>
+
+
+
+
+</BindingDefinition>
